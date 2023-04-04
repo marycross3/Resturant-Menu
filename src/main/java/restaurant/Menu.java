@@ -2,8 +2,25 @@ package restaurant;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 
 public class Menu {
+    //mcDev added
+    private HashMap<Integer, MenuItem> items;
+
+    public Menu(HashMap<Integer, MenuItem> items) {
+        this.items = items;
+    }
+
+    public void setItems(HashMap<Integer, MenuItem> items){
+        this.items = items;
+    }
+    public void printMenu(){
+        //method to print
+        System.out.println();
+    }
+
+    //on my own
     private double price;
     private String description;
     private String category;

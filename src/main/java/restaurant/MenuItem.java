@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class MenuItem {
+    //mcdev added
+    private String name;
+
+   public MenuItem(String name){
+       this.name = name;
+   }
+
+    //what I had
     private Date dateUpdated;
     private ArrayList<MenuItem> items;
 
